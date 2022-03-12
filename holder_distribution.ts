@@ -86,7 +86,7 @@ for (let i = 0; i < mintLen; i++) {
 
    //Adding to hashmap if not already included
    if (!ownerAddr.has(owner)) {
-    ownerAddr.set(owner, 1)
+    ownerAddr.set(owner, 1);
   }
   //Incrementing number of nfts per account if included
   else {
