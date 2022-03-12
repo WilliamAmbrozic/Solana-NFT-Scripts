@@ -57,9 +57,15 @@ const getMintAddresses = async (firstCreatorAddress: PublicKey) => {
      fs.mkdirSync("./mint_addr");
    }
 
+   if (config.data.custom_project_name == "") {
    fs.writeFile ("./mint_addr/" + config.data.mint_id + ".json", JSON.stringify(save_json), function(err:any) {
     if (err) throw err;
     });
+  } else {
+    fs.writeFile ("./mint_addr/" + config.data.custom_project_name + ".json", JSON.stringify(save_json), function(err:any) {
+     if (err) throw err;
+     });
+  }
     console.log("Mint Addresses Written");
 
 })()

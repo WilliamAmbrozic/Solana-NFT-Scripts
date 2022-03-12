@@ -94,9 +94,16 @@ const getMintAddresses = async (firstCreatorAddress: PublicKey) => {
      fs.mkdirSync("./metadata");
    }
 
-   fs.writeFile ("./metadata/" + config.data.mint_id + ".json", JSON.stringify(save_json), function(err:any) {
-    if (err) throw err;
-    });
+   if (config.data.custom_project_name == "") {
+     fs.writeFile ("./metadata/" + config.data.mint_id + ".json", JSON.stringify(save_json), function(err:any) {
+      if (err) throw err;
+      });
+   } else {
+     fs.writeFile ("./metadata/" + config.data.custom_project_name + ".json", JSON.stringify(save_json), function(err:any) {
+      if (err) throw err;
+      });
+   }
+
     console.log("Metadata Written");
 
 })()

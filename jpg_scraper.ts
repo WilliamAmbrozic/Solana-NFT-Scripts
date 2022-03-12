@@ -93,14 +93,18 @@ const getMintAddresses = async (firstCreatorAddress: PublicKey) => {
        const name = tokenMetadata.data.data.name
 
        //Creating new directory in images with the project id
-       let dir = "./images/" + config.data.mint_id;
+       let dir = "";
+       if (config.data.custom_project_name == "") {
+         dir = "./images/" + config.data.mint_id;
+         console.log("(" + (i+1) + "/" + mintLen + ") DOWNLOADING: " + name + " to " + dir);
+       } else {
+        dir = "./images/" + config.data.custom_project_name;
+        console.log("(" + (i+1) + "/" + mintLen + ") DOWNLOADING: " + name + " to " + dir);
+       }
 
        if (i == 0 && !fs.existsSync(dir)){
          fs.mkdirSync(dir);
        }
-
-       //Output cuurrent download
-       console.log("(" + (i+1) + "/" + mintLen + ") DOWNLOADING: " + name + " to " + config.data.mint_id);
 
        //Getting image type
        let type = result.data.properties.files[0].type;
@@ -111,7 +115,11 @@ const getMintAddresses = async (firstCreatorAddress: PublicKey) => {
         url: url,
         responseType: "stream"
       }).then(function (response) {
+        if (config.data.save_jpg_as_nft_name) {
+        response.data.pipe(fs.createWriteStream(dir + "/" + name + "." + type.substring(type.indexOf('/') + 1)));
+      } else {
         response.data.pipe(fs.createWriteStream(dir + "/" + mintAddr[i] + "." + type.substring(type.indexOf('/') + 1)));
+      }
       });
     } catch(error) {
       console.log("(" + (i+1) + "/" + mintLen + ") DOWNLOADING: " + "ERROR SKIPPING");
