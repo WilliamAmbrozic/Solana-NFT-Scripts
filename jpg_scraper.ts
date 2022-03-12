@@ -82,6 +82,9 @@ const getMintAddresses = async (firstCreatorAddress: PublicKey) => {
      fs.mkdirSync("./images");
    }
 
+   //Creating hashmap to store name counts (incase NFTs have the same name)
+   let nftNames = new Map();
+
   //Looping through each mint ownerAddress
   for (let i = 0; i < mintLen; i++) {
      //Fetching owners by mint ownerAddress
@@ -102,6 +105,13 @@ const getMintAddresses = async (firstCreatorAddress: PublicKey) => {
         console.log("(" + (i+1) + "/" + mintLen + ") DOWNLOADING: " + name + " to " + dir);
        }
 
+       //Adding name count to hashmap or initializing
+       if (!nftNames.has(name)) {
+        nftNames.set(name, 1);
+      } else {
+        nftNames.set(name, nftNames.get(name)+1);
+      }
+
        if (i == 0 && !fs.existsSync(dir)){
          fs.mkdirSync(dir);
        }
@@ -116,7 +126,11 @@ const getMintAddresses = async (firstCreatorAddress: PublicKey) => {
         responseType: "stream"
       }).then(function (response) {
         if (config.data.save_jpg_as_nft_name) {
-        response.data.pipe(fs.createWriteStream(dir + "/" + name + "." + type.substring(type.indexOf('/') + 1)));
+          if (nftNames.get(name) > 1) {
+              response.data.pipe(fs.createWriteStream(dir + "/" + name + "-" + nftNames.get(name) + "." + type.substring(type.indexOf('/') + 1)));
+          } else {
+            response.data.pipe(fs.createWriteStream(dir + "/" + name + "." + type.substring(type.indexOf('/') + 1)));
+          }
       } else {
         response.data.pipe(fs.createWriteStream(dir + "/" + mintAddr[i] + "." + type.substring(type.indexOf('/') + 1)));
       }
