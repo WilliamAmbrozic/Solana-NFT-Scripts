@@ -54,7 +54,7 @@
 **jpg_scraper.ts**
 [See Config for Input](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scrapes all NFT image files from the metadata uri of each and then downloads them in a folder (CandyMachine ID named) under ./images.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scrapes all NFT image files from the metadata uri of each and then downloads them in a folder (CandyMachine ID named) under ./images. If you would like files to be named after the NFT name rather than the mint address see [Config Optional Attributes](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config).
 
 ### Sample Output
 
@@ -90,7 +90,7 @@
 **get_mint_json.ts**
 [See Config for Input](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This script will fetch all mint addresses associated with the CandyMachine ID in your config file and store them in a json array located in ./mint_addr. The file will be named after the CandyMachineID.json. This script will update the file if it already exists.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This script will fetch all mint addresses associated with the CandyMachine ID in your config file and store them in a json array located in ./mint_addr. The file will be named after the CandyMachineID.json. This script will update the file if it already exists. If you would like the json file to be named after the project name rather than the project ID see [Config Optional Attributes](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config).
 
 ## Fetch Metadata
 
@@ -99,7 +99,7 @@
 **get_metadata_json.ts**
 [See Config for Input](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This script will fetch all metadata associated with the CandyMachine ID in your config file and store them in a json array located in ./metadata. The file will be named after the CandyMachineID.json. This script will update the file if it already exists.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This script will fetch all metadata associated with the CandyMachine ID in your config file and store them in a json array located in ./metadata. The file will be named after the CandyMachineID.json. This script will update the file if it already exists. If you would like the json file to be named after the project name rather than the project ID see [Config Optional Attributes](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config).
 
 ## Config
 
@@ -117,6 +117,14 @@
 | **get_mint_json.ts**       | YES     | YES         | NO                       | NO                          |
 | **get_metadata_json.ts**   | YES     | YES         | NO                       | NO                          |
 
+## Optional Config Attributes
+**save_jpg_as_nft_name**: Change this from false (default) to true if you would like image files to be named with the NFTs name rather than its mint address.
+* Used for **jpg_scraper.ts**
+
+**custom_project_name**: Change this from "" (default) to a project name if you would like metadata, mint address json, or the save folder name for image files to be named after the specified project name rather than its ID.
+* Used for **get_metadata_json.ts**, **get_mint_json.ts** and **jpg_scraper.ts**
+
+
 ```
 {
   "data": {
@@ -132,7 +140,9 @@
         "trait_type": "Eyes",
         "value": "Beads"
       }
-    ]
+    ],
+    "save_jpg_as_nft_name": true,
+    "custom_project_name": "SolGods"
   }
 }
 ```
