@@ -11,7 +11,7 @@
   - [Batch Download NFT's (JPG Scraper)](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#JPG-Scraper)  
   - [Reverse Image Search](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#reverse-image-search)  
   - [Fetch Mint Addresses](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Fetch-Mint-Addresses)  
-  - [Fetch Metadata](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Fetch-Metadata)  
+  - [Fetch Metadata (uri)](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Fetch-Metadata)  
 - [Config](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config)  
 - [Running the Scripts](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running-the-Scripts) 
   - [Installing](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running-the-Scripts) 
@@ -99,7 +99,7 @@
 **get_metadata_json.ts**
 [See Config for Input](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This script will fetch all metadata associated with the CandyMachine ID in your config file and store them in a json array located in ./metadata. The file will be named after the CandyMachineID.json. This script will update the file if it already exists. If you would like the json file to be named after the project name rather than the project ID see [Config Optional Attributes](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This script will fetch all uri metadata associated with the CandyMachine ID in your config file and store them in a json array located in ./metadata. The file will be named after the CandyMachineID.json. This script will update the file if it already exists. If you would like the json file to be named after the project name rather than the project ID see [Config Optional Attributes](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config).
 
 ## Config
 
