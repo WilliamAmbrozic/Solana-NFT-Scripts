@@ -17,8 +17,8 @@
   - [Installing](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running-the-Scripts) 
   - [Running](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running) 
   - [Finding your CandyMachine ID](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Finding-your-CandyMachine-ID) 
-- [Find Me](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#find-me-)
-- [Tip Jar](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#donate-sol)
+- [Find Me](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#find-me)
+- [Tip Jar](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Solana-Tip-Jar)
 
 ## Preface
 
@@ -196,7 +196,7 @@ ts-node id_finder.ts
 - [williamambrozic.info](https://williamambrozic.info)
 - [Twitter](https://twitter.com/WilliamAmbrozic)
 
-### Tip Jar (SOL)
+## Solana Tip Jar
   * wia.sol 
   * 8vU6RfyFDk9WriVgaJohBxqtE86TLtjAR8cPWjdU6zEN
 
