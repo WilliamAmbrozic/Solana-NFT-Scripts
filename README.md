@@ -184,7 +184,7 @@ ts-node id_finder.ts
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The script above will prompt the user for the mint address of one of the NFT's in the desired collection and attempt to retrieve its collections CandyMachine ID. A simple way of retrieving a mint ID from a collection is to search the project on https://magiceden.io and click on one of the listings. A mint ID will be present after the /item-details/ in the url as seen below.
 
-![Shot 3](https://imgur.com/kpXMiHJ.png)
+![Shot 3](https://imgur.com/KDw8Tzr.png)
 
 ### Alternatives
 
