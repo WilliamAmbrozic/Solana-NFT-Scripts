@@ -17,6 +17,7 @@
   - [Installing](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running-the-Scripts) 
   - [Running](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running) 
   - [Finding your CandyMachine ID](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Finding-your-CandyMachine-ID) 
+- [Credit](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#credit)
 - [Find Me](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#find-me)
 - [Tip Jar](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Solana-Tip-Jar)
 
@@ -190,6 +191,10 @@ ts-node id_finder.ts
 
 * If you do not know your CandyMachine ID, at the time of writting this magiceden has an open endpoint at https://api-mainnet.magiceden.io/all_collections (ctrl f search your project, property: candyMachineIds). 
 * If your project is not present with MagicEden and the script is no help, try searching your NFT on https://explorer.solana.com/ by its mint address. The ID should be a signature address in the very first transaction.
+
+## Credit
+* Code adapted from the [Solana Cookbook](https://solanacookbook.com/).
+* [ResembleJS](https://github.com/rsmbl/Resemble.js) was used for NFT reverse image search (the code inside the resemblejs is not mine - see license).
 
 ## Find Me
 
