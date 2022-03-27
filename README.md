@@ -194,7 +194,7 @@ ts-node id_finder.ts
 
 ## Credit
 * Code adapted from the [Solana Cookbook](https://solanacookbook.com/).
-* [ResembleJS](https://github.com/rsmbl/Resemble.js) was used for NFT reverse image search (the code inside the resemblejs is not mine - see license).
+* [ResembleJS](https://github.com/rsmbl/Resemble.js) was used for NFT reverse image search (the code inside the resemblejs folder is not mine - see license).
 
 ## Find Me
 
