@@ -1,3 +1,7 @@
+//William Ambrozic 2022
+//Code adapted from https://solanacookbook.com/references/nfts.html#candy-machine-v1
+//Resemble code is not mine, please see LICENSE in repo ./resemble folder
+
 var resemble = require('./resemblejs/resemble.js');
 import axios from "axios"
 import * as fs from 'fs';
