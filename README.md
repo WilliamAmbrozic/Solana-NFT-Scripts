@@ -1,5 +1,5 @@
 # Solana NFT Scripts
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A collection of scripts written in typescript for NFT analysis on the Solana blockchain. All scripts in this repo strictly access data from the Solana blockchain (RPC) without use of any external APIs (ex. MagicEden, HowRare, etc).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A collection of scripts written in typescript for NFT analysis on the Solana blockchain. All scripts in this repo strictly access data from the Solana blockchain (RPC) without use of any external APIs fro analysis (ex. MagicEden, HowRare, etc).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These scripts use the https://ssc-dao.genesysgo.net RPC by default, you can speed up the process by using your own endpoint and placing it in the config.json file. All input goes inside the config.json file as described in detail below. These scripts may take time to run, some changes have been made to accommodate this. For example, after any script fetches a projects mint addresses a json file will be created under ./mint_addr named after the projects CandyMachine ID. This allows for the scripts to fetch as little as possible (time consuming).
 
