@@ -27,9 +27,9 @@
 
 ### Manual Exploring
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most other crytocurrencies Solana relies on a public information ledger mostly holding transactions and digital ownership (at its core this is all Solana is). It is this public ledger which the scripts below query. Websites such as https://https://explorer.solana.com/ offer a great user interface for exploring the blockchain; however, as of writting do not provide in-depth tools for analyzing NFT data. This project attempts to mitigate this in an opensource manner. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most other crytocurrencies Solana relies on a public information ledger (at its core this is all Solana is). It is this public ledger which the scripts below query. Websites such as https://https://explorer.solana.com/ offer a great user interface for exploring the blockchain; however, as of writting do not provide in-depth tools for analyzing NFT data. The scripts in this repo attempt to mitigate this in an opensource manner. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That being said the Scripts in this repo often output data such as an NFT's mint address. Say you wanted to know the wallet address of an individual who owns a specific NFT you have a digital copy of. In this case one can use the reverse image search tool, get the mint address, and then go to https://explorer.solana.com/address/MINT_ADDRESS (mint address after /address/). It is here where a user can understand more about a given NFT. This includes the owning wallet, transaction history, the NFT's metadata, etc.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That being said the Scripts in this repo often output data such as an NFT's mint address (think of a mint address as the serial code of an NFT). Say you wanted to know the wallet address of an individual who owns a specific NFT you have a digital copy of (the literal png/jpg/gif file off-chain). In this case one can use the reverse image search tool, get the mint address, and then go to https://explorer.solana.com/address/MINT_ADDRESS (MINT_ADDRESS replaced by the found mint address). It is here where a user can understand more about a given NFT. This includes the owning wallet, transaction history, the NFT's metadata, etc.
   
 ![Shot 2](https://imgur.com/chlyR3H.png)
 
@@ -70,7 +70,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reverse image search a given NFT image. This program will output the mint address of the most visually similar NFT image in the given collection. Place the desired image where the script and the folder ./resemblejs are located. Paste in the projects CandyMachine ID and image file name in the config file.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To speed up the process one can add attribute filters in the config file. An example is shown below. The format matches the format you would find in an NFT's uri. This filters out any NFT that does not have these attributes so the script does not have to fetch its image and compare.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To speed up the process one can add attribute filters in the config file. An example is shown below. The desired format matches what one would find in an NFT's uri. This filters out any NFT that does not have these attributes so the script does not have to fetch its image and compare.
 ```
 "reverse_img_attr_filters": [
       {
