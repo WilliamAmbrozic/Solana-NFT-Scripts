@@ -1,8 +1,6 @@
 //William Ambrozic 2022
 //Code adapted from https://solanacookbook.com/references/nfts.html#candy-machine-v1
 
-//TODO better error handling
-
 import { Connection, clusterApiUrl, PublicKey } from '@solana/web3.js';
 import bs58 from 'bs58';
 import { Metadata } from '@metaplex-foundation/mpl-token-metadata';
