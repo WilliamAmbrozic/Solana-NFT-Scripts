@@ -1,4 +1,8 @@
 # Solana NFT Scripts
+
+**WARNING**: There has recently (March 28th, 2022) been some [issues](https://twitter.com/GenesysGo/status/1508295993581871104?s=20&t=gujt07kgI2PpgmyhHDclzg) with Solana RPC's. If you get an error using these scripts such as ```Error: 403 Forbidden: Call type exceeds Solana 1.9.13 version limit for max account size```, [this](https://twitter.com/GenesysGo/status/1508295993581871104?s=20&t=gujt07kgI2PpgmyhHDclzg) is likely why. This warning will be deleted if either the RPC issues fix themselves or a work around for this script to function is discovered. The scripts in this repo are affected and will likely not function if you are seeing this.
+
+# Details
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A collection of scripts written in typescript for NFT analysis on the Solana blockchain. All scripts in this repo strictly access data from the Solana blockchain (RPC) without use of any external APIs (ex. MagicEden, HowRare, etc).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These scripts use the https://ssc-dao.genesysgo.net RPC by default, you can speed up the process by using your own endpoint and placing it in the config.json file. All input (aside from id_finder.ts) goes inside the config.json file as described in detail below. These scripts may take time to run, some changes have been made to accommodate this. For example, after any script fetches a projects mint addresses a json file will be created under ./mint_addr named after the projects CandyMachine ID. This allows for the scripts to fetch as little as possible (time consuming).
