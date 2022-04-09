@@ -2,6 +2,8 @@
 
 **WARNING: PLEASE READ**: There has recently (March 28th, 2022) been some [issues](https://twitter.com/GenesysGo/status/1508295993581871104?s=20&t=gujt07kgI2PpgmyhHDclzg) with Solana RPC's. If you get an error using these scripts such as ```Error: 403 Forbidden: Call type exceeds Solana 1.9.13 version limit for max account size```, [this](https://twitter.com/GenesysGo/status/1508295993581871104?s=20&t=gujt07kgI2PpgmyhHDclzg) is likely why. This warning will be deleted if either the RPC issues fix themselves or a work around for these scripts to function is discovered. The scripts in this repo are affected as they use GPA calls and will likely not function if you are seeing this warning message. See issue [#4](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts/issues/4).
 
+**Market places analytics:** This repo is meant for on-chain analysis and not market analytics (MagicEden for instance). If you would like to view "off-chain" Solana NFT market analytics I am developing a repo [here](https://github.com/WilliamAmbrozic/MagicEden-NFT-Scripts). The repo linked includes scripts that output the best deals for a collection based on rarity for example. 
+
 # Details
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A collection of scripts written in typescript for NFT analysis on the Solana blockchain. All scripts in this repo strictly access data from the Solana blockchain (RPC) without use of any external APIs (ex. MagicEden, HowRare, etc).
 
