@@ -20,7 +20,7 @@
   - [Fetch Metadata (uri)](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Fetch-Metadata)  
 - [Config](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config)  
 - [Running the Scripts](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running-the-Scripts) 
-  - [Installing](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running-the-Scripts) 
+  - [Installing](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Installing) 
   - [Running](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running) 
   - [Finding your CandyMachine ID](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Finding-your-CandyMachine-ID) 
 - [Credit](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#credit)
