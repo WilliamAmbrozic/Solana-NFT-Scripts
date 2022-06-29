@@ -41,7 +41,7 @@
 
 ## Scripts
 
-## Holder Distribution
+##Holder Distribution
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#contents)
 
