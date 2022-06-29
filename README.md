@@ -10,22 +10,22 @@
 **Market place analytics:** If you are looking for marketplace analysis tools, please check out my other repo [here](https://github.com/WilliamAmbrozic/MagicEden-NFT-Scripts).  
 
 ## Contents
-- [Preface](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Preface)  
-  - [Manual Exploring](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Preface)
-- [Scripts](https://github.com/WilliamAmbrozic/Solana-NFT-AnalyNFTstics-Tools#Scripts)  
-  - [Holder Distribution](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Holder-Distribution)  
-  - [Batch Download NFT's (JPG Scraper)](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#JPG-Scraper)  
-  - [Reverse Image Search](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#reverse-image-search)  
-  - [Fetch Mint Addresses](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Fetch-Mint-Addresses)  
-  - [Fetch Metadata (uri)](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Fetch-Metadata)  
-- [Config](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config)  
-- [Running the Scripts](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running-the-Scripts) 
-  - [Installing](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Installing) 
-  - [Running](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Running) 
-  - [Finding your CandyMachine ID](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Finding-your-CandyMachine-ID) 
-- [Credit](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#credit)
-- [Find Me](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#find-me)
-- [Tip Jar](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Solana-Tip-Jar)
+- [Preface](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Preface)  
+  - [Manual Exploring](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Preface)
+- [Scripts](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Scripts)  
+  - [Holder Distribution](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Holder-Distribution)  
+  - [Batch Download NFT's (JPG Scraper)](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#JPG-Scraper)  
+  - [Reverse Image Search](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#reverse-image-search)  
+  - [Fetch Mint Addresses](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Fetch-Mint-Addresses)  
+  - [Fetch Metadata (uri)](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Fetch-Metadata)  
+- [Config](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Config)  
+- [Running the Scripts](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Running-the-Scripts) 
+  - [Installing](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Installing) 
+  - [Running](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Running) 
+  - [Finding your CandyMachine ID](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Finding-your-CandyMachine-ID) 
+- [Credit](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#credit)
+- [Find Me](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#find-me)
+- [Tip Jar](https://github.com/WilliamAmbrozic/Solana-NFT-Scripts#Solana-Tip-Jar)
 
 ## Preface
 
