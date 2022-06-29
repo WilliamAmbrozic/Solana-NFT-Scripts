@@ -45,6 +45,8 @@
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#contents)
 
+**Note:** There are more user friendly alternatives. Since making this repo MagicEden have added an [analytics page](https://magiceden.io/marketplace/solgods?activeTab=stats) per collection, [hellomoon](https://www.hellomoon.io/nfts) exists, etc.
+
 **holder_distribution.ts** 
 [See Config for Input](https://github.com/WilliamAmbrozic/Solana-NFT-Analytics-Tools#Config)
 
