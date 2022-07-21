@@ -206,8 +206,8 @@ ts-node id_finder.ts
 
 ## Find Me
 
-- [williamambrozic.info](https://williamambrozic.info)
 - [Twitter](https://twitter.com/WilliamAmbrozic)
+- [About](https://williamambrozic.github.io/about)
 
 ## Solana Tip Jar
   * 39M6R5KP6NUX4KGATWaLGVaDrmLMpzbKAQU1q59rhHoT
